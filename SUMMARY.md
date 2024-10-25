@@ -3,7 +3,8 @@
 * [Introduction](README.md)
   * [Contributing Guide](readme/contributing-guide.md)
   * [Release History](readme/release-history/README.md)
-    * [1.0.0-Beta19](readme/release-history/1.0.0-beta19.md)
+    * [1.0.0-Beta20](readme/release-history/1.0.0-beta19.md)
+    * [1.0.0-Beta19](readme/release-history/1.0.0-beta19-1.md)
     * [1.0.0-Beta18](readme/release-history/1.0.0-beta18.md)
     * [1.0.0-Beta17](readme/release-history/1.0.0-beta17.md)
     * [1.0.0-Beta16](readme/release-history/1.0.0-beta16.md)
@@ -674,7 +675,7 @@
     * [zip](boxlang-language/reference/components/zip/README.md)
       * [Zip](boxlang-language/reference/components/zip/Zip.md)
   * [Exceptions](boxlang-language/reference/Exceptions.md)
-  
+
 ## BoxLang Framework
 
 * [Application.bx](boxlang-framework/applicationbx.md)
