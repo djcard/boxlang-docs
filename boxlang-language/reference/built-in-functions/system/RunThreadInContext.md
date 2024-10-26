@@ -2,7 +2,7 @@
 
 # Function: `RunThreadInContext`
 
-Executes the code in the callback with a speciec parent context so a specific application name
+Executes the code in the callback with a specific parent context so a specific application name
  is visible and an optional sessionID, or a specific context can be provided from another request.
 
 If context is provided, application name and sessionID are not allowed.
@@ -62,6 +62,7 @@ RunThreadInContext(applicationName=[string], sessionId=[string], context=[any], 
   * [GetFunctionList](./GetFunctionList.md)
   * [GetModuleInfo](./GetModuleInfo.md)
   * [GetModuleList](./GetModuleList.md)
+  * [GetRequestClassLoader](./GetRequestClassLoader.md)
   * [GetSystemSetting](./GetSystemSetting.md)
   * [GetTempDirectory](./GetTempDirectory.md)
   * [GetTickCount](./GetTickCount.md)
@@ -83,6 +84,7 @@ RunThreadInContext(applicationName=[string], sessionId=[string], context=[any], 
   * [SystemExecute](./SystemExecute.md)
   * [SystemOutput](./SystemOutput.md)
   * [Throw](./Throw.md)
+  * [Trace](./Trace.md)
   * [URLDecode](./URLDecode.md)
   * [URLEncodedFormat](./URLEncodedFormat.md)
   * [writeDump](./writeDump.md)

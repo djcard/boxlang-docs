@@ -388,11 +388,6 @@ Arguments:
 
 </details>
 <details>
-<summary><code>toImmutable()</code></summary>
-
-Convert an array, struct or query to its immutable counterpart.
-</details>
-<details>
 <summary><code>toJSON(queryFormat=[string], useSecureJSONPrefix=[string], useCustomSerializer=[boolean])</code></summary>
 
 Converts a BoxLang variable into a JSON (JavaScript Object Notation) string.
@@ -407,9 +402,9 @@ Arguments:
 
 </details>
 <details>
-<summary><code>toMutable()</code></summary>
+<summary><code>toModifiable()</code></summary>
 
-Convert an array, struct or query to its mutable counterpart.
+Convert an array, struct or query to its Modifiable counterpart.
 </details>
 <details>
 <summary><code>toQueryString(delimiter=[string])</code></summary>
@@ -440,6 +435,11 @@ Arguments:
 | `localeSensitive` | `any` | `false` | `false` |
 | `callback` | `function:Comparator` | `false` | `null` |
 
+</details>
+<details>
+<summary><code>toUnmodifiable()</code></summary>
+
+Convert an array, struct or query to its Unmodifiable counterpart.
 </details>
 <details>
 <summary><code>update(key=[string], value=[any])</code></summary>

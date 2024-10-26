@@ -1,13 +1,13 @@
 [comment]: # (Note: This documentation is generated dynamically in the build process.  To modify the contents, change the javadoc on the _invoke method of the BIF class)
 
-# Function: `ToMutable`
+# Function: `ToUnmodifiable`
 
-Convert an array, struct or query to its mutable counterpart.
+Convert an array, struct or query to its Unmodifiable counterpart.
 
 ## Method Signature
 
 ```
-ToMutable(value=[any])
+ToUnmodifiable(value=[any])
 ```
 
 ### Arguments
@@ -31,7 +31,7 @@ ToMutable(value=[any])
   * [ParseNumber](./ParseNumber.md)
   * [ToBase64](./ToBase64.md)
   * [ToBinary](./ToBinary.md)
-  * [ToImmutable](./ToImmutable.md)
+  * [ToModifiable](./ToModifiable.md)
   * [ToNumeric](./ToNumeric.md)
   * [ToScript](./ToScript.md)
   * [ToString](./ToString.md)

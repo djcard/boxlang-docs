@@ -2,7 +2,7 @@
 
 # Function: `QueryRecordCount`
 
-This function returns the number of records in a query
+Returns the absolute value of a number
 
 ## Method Signature
 
@@ -15,7 +15,7 @@ QueryRecordCount(query=[query])
 
 | Argument | Type | Required | Description | Default |
 |----------|------|----------|-------------|---------|
-| `query` | `query` | `true` | The query to iterate over |  |
+| `query` | `query` | `true` |  |  |
 
 ## Examples
 

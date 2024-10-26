@@ -1,13 +1,18 @@
 [comment]: # (Note: This documentation is generated dynamically in the build process.  To modify the contents, change the javadoc on the _invoke method of the BIF class)
 
-# Function: `CreateUUID`
+# Function: `GetRequestClassLoader`
 
-Create a Universally Unique Identifier (UUID).
+This will retrieve the current request's class loader according to BoxLang loading hierarchy:
+
+<p>
+
+ - If you defined Java settings in your `Application`, it will use the class loader hierarchy defined by those settings.
+ - Else it uses the Global BoxRuntime class loader.
 
 ## Method Signature
 
 ```
-CreateUUID()
+GetRequestClassLoader()
 ```
 
 ### Arguments
@@ -30,6 +35,7 @@ This function does not accept any arguments
   * [CallStackGet](./CallStackGet.md)
   * [CreateGUID](./CreateGUID.md)
   * [CreateObject](./CreateObject.md)
+  * [CreateUUID](./CreateUUID.md)
   * [DE](./DE.md)
   * [DebugBoxContexts](./DebugBoxContexts.md)
   * [Dump](./Dump.md)
@@ -52,7 +58,6 @@ This function does not accept any arguments
   * [GetFunctionList](./GetFunctionList.md)
   * [GetModuleInfo](./GetModuleInfo.md)
   * [GetModuleList](./GetModuleList.md)
-  * [GetRequestClassLoader](./GetRequestClassLoader.md)
   * [GetSystemSetting](./GetSystemSetting.md)
   * [GetTempDirectory](./GetTempDirectory.md)
   * [GetTickCount](./GetTickCount.md)

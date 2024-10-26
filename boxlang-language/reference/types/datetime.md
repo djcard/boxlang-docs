@@ -277,6 +277,11 @@ Arguments:
 
 </details>
 <details>
+<summary><code>len()</code></summary>
+
+Returns the absolute value of a number
+</details>
+<details>
 <summary><code>millisecond(timezone=[string], locale=[string])</code></summary>
 
 Provides the BIF and member functions for all time unit request with no arguments

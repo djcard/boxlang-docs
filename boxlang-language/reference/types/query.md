@@ -220,6 +220,11 @@ Arguments:
 
 </details>
 <details>
+<summary><code>len()</code></summary>
+
+Returns the absolute value of a number
+</details>
+<details>
 <summary><code>map(callback=[function:Function], parallel=[boolean], maxThreads=[integer])</code></summary>
 
 This function maps the query to a new query.
@@ -361,11 +366,6 @@ Arguments:
 
 </details>
 <details>
-<summary><code>toImmutable()</code></summary>
-
-Convert an array, struct or query to its immutable counterpart.
-</details>
-<details>
 <summary><code>toJSON(queryFormat=[string], useSecureJSONPrefix=[string], useCustomSerializer=[boolean])</code></summary>
 
 Converts a BoxLang variable into a JSON (JavaScript Object Notation) string.
@@ -380,9 +380,14 @@ Arguments:
 
 </details>
 <details>
-<summary><code>toMutable()</code></summary>
+<summary><code>toModifiable()</code></summary>
 
-Convert an array, struct or query to its mutable counterpart.
+Convert an array, struct or query to its Modifiable counterpart.
+</details>
+<details>
+<summary><code>toUnmodifiable()</code></summary>
+
+Convert an array, struct or query to its Unmodifiable counterpart.
 </details>
 
 
