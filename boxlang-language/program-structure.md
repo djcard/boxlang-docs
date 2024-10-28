@@ -27,9 +27,11 @@ Templates will use the templating language but can also use scripts via opening 
 <bx:set a = [1,2,3,4]>
 <bx:set user = { name : "boxlang", id : createUUID(), age : 3 }>
 <bx:set today = now()>
-<bx:output>Today is #today#</bx:output>
-<bx:output>#a#</bx:output>
-<bx:output>#user#</bx:output>
+<bx:output>
+  Today is #today#<br>
+  #a.toString()#<br>
+  #user.toString()#<br>
+</bx:output>
 ```
 
 Scripts are in script notation, but you can also use the templating language by using opening and closing tag island notations: ` ``` `

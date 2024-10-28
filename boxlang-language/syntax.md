@@ -83,9 +83,11 @@ If you want to see HTML being produced, then you will need to run the file in ou
 <bx:set a = [1,2,3,4]>
 <bx:set user = { name : "boxlang", id : createUUID(), age : 3 }>
 <bx:set today = now()>
-<bx:output>Today is #today#</bx:output>
-<bx:output>#a#</bx:output>
-<bx:output>#user#</bx:output>
+<bx:output>
+    Today is #today#<br>
+    #a.toString()#</bx:output<br>
+    #user.toString()#<br>
+</bx:output>
 ```
 {% endtab %}
 {% endtabs %}
@@ -94,17 +96,15 @@ Run this in the MiniServer or CommandBox or the REPL tool: `boxlang myprogram.bx
 
 ```markup
 <bx:script>
-a = [ 1,2,3 ]
-user = { name : "boxlang", id : createUUID(), age : 3 }
-today = now()
+    a = [ 1,2,3 ]
+    user = { name : "boxlang", id : createUUID(), age : 3 }
+    today = now()
 </bx:script>
 
 <bx:output>
-Today is #today#
-<br>
-My array is #a# and it has #a.len()# elements
-<br>
-My user struct is #user# and has #a.len()# keys
+    Today is #today#<br>
+    My array is #a.toString()# and it has #a.len()# elements<br>
+    My user struct is #user.toString()# and has #a.len()# keys<br>
 </bx:output>
 ```
 
