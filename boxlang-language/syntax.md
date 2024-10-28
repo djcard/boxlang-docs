@@ -85,7 +85,7 @@ If you want to see HTML being produced, then you will need to run the file in ou
 <bx:set today = now()>
 <bx:output>
     Today is #today#<br>
-    #a.toString()#</bx:output<br>
+    #a.toString()#<br>
     #user.toString()#<br>
 </bx:output>
 ```
