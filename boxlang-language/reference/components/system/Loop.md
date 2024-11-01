@@ -14,7 +14,7 @@ from=[double]
 file=[string]
 list=[string]
 delimiters=[string]
-collection=[Struct]
+collection=[collection]
 condition=[function]
 query=[any]
 group=[string]
@@ -38,7 +38,7 @@ times=[integer] />
 | `file` | `string` | `false` |  |  |
 | `list` | `string` | `false` |  |  |
 | `delimiters` | `string` | `false` |  |  |
-| `collection` | `Struct` | `false` |  |  |
+| `collection` | `collection` | `false` |  |  |
 | `condition` | `function` | `false` |  |  |
 | `query` | `any` | `false` |  |  |
 | `group` | `string` | `false` |  |  |
@@ -59,7 +59,7 @@ from=[double]
 file=[string]
 list=[string]
 delimiters=[string]
-collection=[Struct]
+collection=[collection]
 condition=[function]
 query=[any]
 group=[string]

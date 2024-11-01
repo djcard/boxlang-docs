@@ -7,7 +7,7 @@ Tests whether a key exists in a struct and returns a boolean value
 ## Method Signature
 
 ```
-StructKeyExists(struct=[structloose], key=[string])
+StructKeyExists(struct=[structloose], key=[any])
 ```
 
 ### Arguments
@@ -16,7 +16,7 @@ StructKeyExists(struct=[structloose], key=[string])
 | Argument | Type | Required | Description | Default |
 |----------|------|----------|-------------|---------|
 | `struct` | `struct` | `true` | The struct to test |  |
-| `key` | `string` | `true` | The key within the struct to test for existence |  |
+| `key` | `any` | `true` | The key within the struct to test for existence |  |
 
 ## Examples
 

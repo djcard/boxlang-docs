@@ -7,7 +7,7 @@ Searches a struct for a given key and returns an array of values
 ## Method Signature
 
 ```
-StructFindKey(struct=[structloose], key=[string], scope=[string])
+StructFindKey(struct=[structloose], key=[any], scope=[string])
 ```
 
 ### Arguments
@@ -16,7 +16,7 @@ StructFindKey(struct=[structloose], key=[string], scope=[string])
 | Argument | Type | Required | Description | Default |
 |----------|------|----------|-------------|---------|
 | `struct` | `struct` | `true` | The struct to search |  |
-| `key` | `string` | `true` | The key to search for |  |
+| `key` | `any` | `true` | The key to search for |  |
 | `scope` | `string` | `false` | Either one (default), which finds the first instance or all to return all values | `one` |
 
 ## Examples

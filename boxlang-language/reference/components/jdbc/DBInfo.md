@@ -12,9 +12,9 @@ datasource=[string]
 table=[string]
 pattern=[string]
 dbname=[string]
+filter=[string]
 username=[string]
-password=[string]
-filter=[string] />
+password=[string] />
 ```
 
 ### Attributes
@@ -28,9 +28,9 @@ filter=[string] />
 | `table` | `string` | `false` | Table name for which to retrieve metadata. Required for `columns`, `foreignkeys`, and `index` types. |  |
 | `pattern` | `string` | `false` |  |  |
 | `dbname` | `string` | `false` |  |  |
-| `username` | `string` | `false` | Not currently implemented. |  |
-| `password` | `string` | `false` | Not currently implemented. |  |
-| `filter` | `string` | `false` | A lucee-only attribute to perform additional filtering on <code>type="tables"</code> results. Not currently implemented, as this<br>                   should be performed by a queryFilter() call. |  |
+| `filter` | `string` | `false` | This is a string value that must match a table type in your database implementation. Each database is different.<br>                   Some common filter types are:<br>                   <ul><br>                   <li>TABLE - This is the default value and will return only tables.</li><br>                   <li>VIEW - This will return only views.</li><br>                   <li>SYSTEM TABLE - This will return only system tables.</li><br>                   <li>GLOBAL TEMPORARY - This will return only global temporary tables.</li><br>                   <li>LOCAL TEMPORARY - This will return only local temporary tables.</li><br>                   <li>ALIAS - This will return only aliases.</li><br>                   <li>SYNONYM - This will return only synonyms.</li><br>                   </ul> |  |
+| `username` | `string` | `false` |  |  |
+| `password` | `string` | `false` |  |  |
 
 ## Examples
 
@@ -41,7 +41,7 @@ datasource=[string]
 table=[string]
 pattern=[string]
 dbname=[string]
+filter=[string]
 username=[string]
-password=[string]
-filter=[string] />
+password=[string] />
 ```

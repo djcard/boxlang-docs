@@ -7,7 +7,7 @@ Inserts a key/value pair in to a struct - with an optional overwrite argument
 ## Method Signature
 
 ```
-StructInsert(struct=[modifiableStruct], key=[string], value=[any], overwrite=[boolean])
+StructInsert(struct=[modifiableStruct], key=[any], value=[any], overwrite=[boolean])
 ```
 
 ### Arguments
@@ -16,7 +16,7 @@ StructInsert(struct=[modifiableStruct], key=[string], value=[any], overwrite=[bo
 | Argument | Type | Required | Description | Default |
 |----------|------|----------|-------------|---------|
 | `struct` | `modifiableStruct` | `true` | The target struct |  |
-| `key` | `string` | `true` | The struct key |  |
+| `key` | `any` | `true` | The struct key |  |
 | `value` | `any` | `true` | The value to assign for the specified key |  |
 | `overwrite` | `boolean` | `false` | Whether to overwrite the existing value if the key exists ( default: false ) | `false` |
 

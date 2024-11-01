@@ -181,7 +181,7 @@ Arguments:
 
 </details>
 <details>
-<summary><code>find(key=[string], defaultValue=[any])</code></summary>
+<summary><code>find(key=[any], defaultValue=[any])</code></summary>
 
 Finds and retrieves a top-level key from a string in a struct
 
@@ -189,12 +189,12 @@ Arguments:
 
 | Argument | Type | Required | Default |
 |----------|------|----------|---------|
-| `key` | `string` | `true` | `null` |
+| `key` | `any` | `true` | `null` |
 | `defaultValue` | `any` | `false` | `null` |
 
 </details>
 <details>
-<summary><code>findKey(key=[string], scope=[string])</code></summary>
+<summary><code>findKey(key=[any], scope=[string])</code></summary>
 
 Searches a struct for a given key and returns an array of values
 
@@ -202,7 +202,7 @@ Arguments:
 
 | Argument | Type | Required | Default |
 |----------|------|----------|---------|
-| `key` | `string` | `true` | `null` |
+| `key` | `any` | `true` | `null` |
 | `scope` | `string` | `false` | `one` |
 
 </details>
@@ -251,7 +251,7 @@ Arguments:
 
 </details>
 <details>
-<summary><code>insert(key=[string], value=[any], overwrite=[boolean])</code></summary>
+<summary><code>insert(key=[any], value=[any], overwrite=[boolean])</code></summary>
 
 Inserts a key/value pair in to a struct - with an optional overwrite argument
 
@@ -259,7 +259,7 @@ Arguments:
 
 | Argument | Type | Required | Default |
 |----------|------|----------|---------|
-| `key` | `string` | `true` | `null` |
+| `key` | `any` | `true` | `null` |
 | `value` | `any` | `true` | `null` |
 | `overwrite` | `boolean` | `false` | `false` |
 
@@ -290,7 +290,7 @@ linked )
 Get keys of a struct as an array
 </details>
 <details>
-<summary><code>keyExists(key=[string])</code></summary>
+<summary><code>keyExists(key=[any])</code></summary>
 
 Tests whether a key exists in a struct and returns a boolean value
 
@@ -298,7 +298,7 @@ Arguments:
 
 | Argument | Type | Required | Default |
 |----------|------|----------|---------|
-| `key` | `string` | `true` | `null` |
+| `key` | `any` | `true` | `null` |
 
 </details>
 <details>
@@ -442,7 +442,7 @@ Arguments:
 Convert an array, struct or query to its Unmodifiable counterpart.
 </details>
 <details>
-<summary><code>update(key=[string], value=[any])</code></summary>
+<summary><code>update(key=[any], value=[any])</code></summary>
 
 Updates or sets a key/value pair in to a struct
 
@@ -450,7 +450,7 @@ Arguments:
 
 | Argument | Type | Required | Default |
 |----------|------|----------|---------|
-| `key` | `string` | `true` | `null` |
+| `key` | `any` | `true` | `null` |
 | `value` | `any` | `true` | `null` |
 
 </details>

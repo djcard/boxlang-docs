@@ -7,7 +7,7 @@ Updates or sets a key/value pair in to a struct
 ## Method Signature
 
 ```
-StructUpdate(struct=[modifiableStruct], key=[string], value=[any])
+StructUpdate(struct=[modifiableStruct], key=[any], value=[any])
 ```
 
 ### Arguments
@@ -16,7 +16,7 @@ StructUpdate(struct=[modifiableStruct], key=[string], value=[any])
 | Argument | Type | Required | Description | Default |
 |----------|------|----------|-------------|---------|
 | `struct` | `modifiableStruct` | `true` | The target struct |  |
-| `key` | `string` | `true` | The struct key |  |
+| `key` | `any` | `true` | The struct key |  |
 | `value` | `any` | `true` | The value to assign for the specified key |  |
 
 ## Examples
