@@ -21,7 +21,31 @@ Each of these files follow the same program structure with different syntaxes. T
 
 Scripts and templates in BoxLang do not require a class definition and can be executed via the CLI binary directly: `boxlang {script|template|` or ran by the MiniServer/CommandBox/Servlet/Etc.
 
-Templates will use the templating language but can also use scripts via opening and closing `<bx:script></bx:script>` tags.
+### Scripts
+
+Script files have a `bxs` file extension and will use script notation, but you can also use the templating language by using opening and closing tag island notations: ` ``` `
+
+````java
+a = [1,2,3,4]
+user = { name : "boxlang", id : createUUID(), age : 3 }
+today = now()
+
+
+```
+<!--- Now I can do templating --->
+<bx:output>
+  Today is #today#<br>
+  #a.toString()#<br>
+  #user.toString()#<br>
+</bx:output>
+```
+// Now I am back in scripts
+echo( "scripts again" )
+````
+
+### Templates
+
+Templates have a `bxm` file extension and will use the templating language but can also use scripts via opening and closing `<bx:script></bx:script>` tags.
 
 ```markup
 <bx:set a = [1,2,3,4]>
@@ -33,22 +57,6 @@ Templates will use the templating language but can also use scripts via opening 
   #user.toString()#<br>
 </bx:output>
 ```
-
-Scripts are in script notation, but you can also use the templating language by using opening and closing tag island notations: ` ``` `
-
-````java
-echo( "I am a script" )
-
-```
-<!--- Now I can do templating --->
-<bx:output>
-    <h1>hello</h1>
-</bx:output>
-```
-
-// Now I am back in scripts
-echo( "scripts again" )
-````
 
 ## Classes
 
