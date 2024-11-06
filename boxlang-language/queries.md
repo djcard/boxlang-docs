@@ -6,7 +6,7 @@ description: BoxLang provides the easiest way to query a database
 
 CFML became famous in its infancy because it was easy to query databases with a simple `bx:query` tag and no verbose ceremonious coding. There is no ceremony, just a plain datasource definition in the administrator, and we could easily query the database.
 
-In modern times, we have many more ways to query the database, and defining data sources can occur not only [in our web application's `Application.bx`](queries.md#defining-datasources-in-applicationbx), but also [globally across the BoxLang runtime via our `boxlang.json` configuration file](queries.md#defining-datasources-in-boxlangjson), not to mention defining datasources at runtime programmatically or [within the query constructs themselves](queries.md#defining-inline-datasources).
+In modern times, we have many more ways to query the database, and defining data sources can occur not only [in our web application's `Application.bx`](datasources.md#defining-datasources-in-applicationbx), but also [globally across the BoxLang runtime via our `boxlang.json` configuration file](datasources.md#defining-datasources-in-boxlangjson), not to mention defining datasources at runtime programmatically or [within the query constructs themselves](datasources.md#defining-inline-datasources).
 
 {% hint style="info" %}
 See [Application.bx](../boxlang-framework/applicationbx.md) for more information on how to leverage it for web development.
@@ -16,9 +16,9 @@ See [Application.bx](../boxlang-framework/applicationbx.md) for more information
 
 A datasource is a **named** connection to a specific database with specified credentials. You can define a datasource in one of three locations:
 
-1. [At the boxlang runtime level via your `boxlang.json` config file](queries.md#defining-datasources-in-boxlangjson)
-2. For web applications, [in your `Application.bx` via `this.datasources`](queries.md#defining-datasources-in-applicationbx)
-3. [Inline, at query time, via the `queryExecute()` BIF, `query` or `dbInfo` component, etc](queries.md#defining-inline-datasources)
+1. [At the boxlang runtime level via your `boxlang.json` config file](datasources.md#defining-datasources-in-boxlangjson)
+2. For web applications, [in your `Application.bx` via `this.datasources`](datasources.md#defining-datasources-in-applicationbx)
+3. [Inline, at query time, via the `queryExecute()` BIF, `query` or `dbInfo` component, etc](datasources.md#defining-inline-datasources)
 
 The datasource is then used to control the database's connection pool and allow the BoxLang engine to execute JDBC calls against it.
 
@@ -58,7 +58,7 @@ Here's the tag syntax for a query using a named `"pantry"` datasource:
 </bx:query>
 ```
 
-Most often you'll be writing queries in script syntax. Here's an example of using the [default datasource](queries.md#default-datasource) in a script-syntax query:
+Most often you'll be writing queries in script syntax. Here's an example of using the [default datasource](datasources.md#default-datasource) in a script-syntax query:
 
 ```js
 qItems = queryExecute(
@@ -216,7 +216,7 @@ You can use the `:varname` notation in your SQL construct to denote a **variable
 * `varchar`
 
 {% hint style="warning" %}
-Please note that the types can be prefixed with `cf_sql_{type}` or just used as `{type}`.
+Please note that the `cf_sql_{type}` syntax is only supported when [bx-compat-cfml](https://forgebox.io/view/bx-compat-cfml) is installed. Hence, `{type}` should be preferred in all new queries moving forward.
 {% endhint %}
 
 ## Query Methods
@@ -348,7 +348,7 @@ BoxLang supports the following query options:
 * `cacheProvider` - Name of the cache provider used for caching this query. A default cache provider will be assigned if none set, 
 * `cacheTimeout` - Max time, as a duration, to allow cached results to be returned.
 
-For CFML compatibility, the following options are also supported once [bx-compat] is installed:
+For CFML compatibility, the following options are also supported once [bx-compat-cfml](https://forgebox.io/view/bx-compat-cfml) is installed:
 
 * `blockfactor` - alias for `fetchSize`
 * `cacheID` - alias for `cacheKey`

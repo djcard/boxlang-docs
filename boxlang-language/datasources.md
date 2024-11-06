@@ -200,3 +200,14 @@ You can easily place a `.cfconfig.json` in the web root of your project, and if 
 {% endcode %}
 
 {% embed url="https://cfconfig.ortusbooks.com/using-the-cli/command-overview" %}
+
+## Hikari Configuration Properties
+
+BoxLang uses [HikariCP](https://github.com/brettwooldridge/HikariCP) under the hood for connection pooling. You can include any [Hikari configuration property](https://github.com/brettwooldridge/HikariCP?tab=readme-ov-file#gear-configuration-knobs-baby) you'd like in your datasource configuration:
+
+```js
+"coldbox":{
+    ...
+   "connectionInitSql":"custom SQL statement to run on connection initialize...",
+}
+```
