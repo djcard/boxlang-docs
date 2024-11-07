@@ -1,4 +1,33 @@
-# Defining Datasources
+# Datasource Definitions
+
+A datasource is a **named** connection to a specific database with specified credentials. You can define a datasource in one of three locations:
+
+1. [At the boxlang runtime level via your `boxlang.json` config file](datasources.md#defining-datasources-in-boxlangjson)
+2. For web applications, [in your `Application.bx` via `this.datasources`](datasources.md#defining-datasources-in-applicationbx)
+3. [Inline, at query time, via the `queryExecute()` BIF, `query` or `dbInfo` component, etc](datasources.md#defining-inline-datasources)
+
+The datasource is then used to control the database's connection pool and allow the BoxLang engine to execute JDBC calls against it.
+
+## What Database Vendors Are Supported?
+
+The following database vendors are supported and available:
+
+* [Apache Derby](https://ortus-temp.s3.amazonaws.com/boxlang-modules/bx-derby/bx-derby-1.0.0.zip)
+* [HyperSQL](https://ortus-temp.s3.amazonaws.com/boxlang-modules/bx-hypersql/bx-hypersql-1.0.0.zip)
+* [MariaDB](https://ortus-temp.s3.amazonaws.com/boxlang-modules/bx-mariadb/bx-mariadb-1.0.0.zip)
+* [Microsoft SQL Server](https://ortus-temp.s3.amazonaws.com/boxlang-modules/bx-mssql/bx-mssql-1.0.0.zip)
+* [MySQL](https://ortus-temp.s3.amazonaws.com/boxlang-modules/bx-mysql/bx-mysql-1.0.0.zip)
+* [Oracle](https://ortus-temp.s3.amazonaws.com/boxlang-modules/bx-oracle/bx-oracle-1.0.0.zip)
+* [PostgreSQL](https://ortus-temp.s3.amazonaws.com/boxlang-modules/bx-postgresql/bx-postgresql-1.0.0.zip)
+
+Each database we support comes with an installable BoxLang module which either
+
+1. provides the necessary client dependencies for making JDBC connections to a running database server (MySQL, Postgres, etc.)
+2. OR contains the database vendor itself, as in the case of Apache Derby or HyperSQL, which are both in-memory database.
+
+To use any of these databases you'll need to install its BoxLang module to support JDBC connections to that datasource.
+
+## Make Sure to Specify a Driver
 
 The datasource configuration struct should be defined exactly the same whether you are using an inline, ad-hoc datasource or configuring a datasource in your `boxlang.json` or `Application.bx`. Make sure you have a "driver" key defined OR the driver clearly denoted in the JDBC url:
 

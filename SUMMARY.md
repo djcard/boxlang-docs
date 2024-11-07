@@ -69,6 +69,7 @@
   * [Arrays](boxlang-language/arrays.md)
   * [Structures](boxlang-language/structures.md)
   * [Queries](boxlang-language/queries.md)
+  * [Datasources](boxlang-language/queries.md)
   * [Conditionals](boxlang-language/conditionals.md)
   * [Attempts](boxlang-language/syntax/attempts.md)
   * [Data Navigators](boxlang-language/syntax/data-navigators.md)
