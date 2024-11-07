@@ -230,9 +230,22 @@ You can easily place a `.cfconfig.json` in the web root of your project, and if 
 
 {% embed url="https://cfconfig.ortusbooks.com/using-the-cli/command-overview" %}
 
-## Hikari Configuration Properties
+## Datasource Configuration
 
-BoxLang uses [HikariCP](https://github.com/brettwooldridge/HikariCP) under the hood for connection pooling. You can include any [Hikari configuration property](https://github.com/brettwooldridge/HikariCP?tab=readme-ov-file#gear-configuration-knobs-baby) you'd like in your datasource configuration:
+## All Configuration Properties
+
+| Property           | Type    | Default       | Description                                                                                                                                                                                                 |
+|--------------------|---------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| maxConnections     | Integer | 10            | The maximum number of connections. Alias for Hikari's `maximumPoolSize` |
+| minConnections     | Integer | 10            | The minimum number of connections. Alias for Hikari's `minimumIdle` |
+| connectionTimeout  | Integer | 1             | Maximum time to wait for a successful connection, in seconds. |
+| idleTimeout        | Integer | 600           | The maximum number of idle time in seconds (10 Minutes = 600). Refers to the maximum amount of time a connection can remain idle in the pool before it is eligible for eviction. |
+| maxLifetime        | Integer | 1800          | This property controls the maximum lifetime of a connection in the pool. An in-use connection will never be retired, only when it is closed will it then be removed. 30 minutes by default = 1800 seconds. |
+| keepaliveTime      | Integer | 600           | This property controls how frequently HikariCP will attempt to keep a connection alive, in order to prevent it from being timed out by the database or network infrastructure. 10 Minutes = 600 seconds. |
+| autoCommit         | Boolean | true          | The default auto-commit state of connections created by this pool. |
+| registerMbeans     | Boolean | true          | Register mbeans for JMX connection monitoring support. |
+
+In addition to the above properties, you can include any [Hikari configuration property](https://github.com/brettwooldridge/HikariCP?tab=readme-ov-file#gear-configuration-knobs-baby) you'd like in your datasource configuration:
 
 ```js
 "coldbox":{
@@ -240,3 +253,41 @@ BoxLang uses [HikariCP](https://github.com/brettwooldridge/HikariCP) under the h
    "connectionInitSql":"custom SQL statement to run on connection initialize...",
 }
 ```
+
+## Datasource Connection Pooling
+
+BoxLang uses [HikariCP](https://github.com/brettwooldridge/HikariCP) under the hood for connection pooling. Each datasource gets a dedicated connection pool. Use these configuration properties to adjust the pool size and behavior:
+
+* `maxConnections`
+* `minConnections`
+* `connectionTimeout`
+* `idleTimeout`
+* `maxLifetime`
+* `keepaliveTime`
+
+### Pool Statistics
+
+BoxLang offers a number of pool statistics which can be retrieved from the datasource object. To do this, first find your datasource name from the list of registered datasources:
+
+```js
+// get array of unique datasource names for all apps
+writeDump( getBoxContext().getRuntime().getDatasourceService().getNames() );
+```
+
+Next, retrieve the datasource by its unique datasource name, and call `.getPoolStats()` on the result:
+
+```js
+writeDump( getBoxContext().getRuntime().getDatasourceService().get( "app_12345_my_Datasource_Name" ).getPoolStats() );
+```
+
+This returns a struct of pool metadata including the following keys:
+
+* `pendingThreads`
+* `idleConnections`
+* `totalConnections`
+* `activeConnections`
+* `maxConnections`
+* `minConnections`
+
+Find out what datasources you have defined by dumping out this
+getBoxContext().getRuntime().getDatasourceService().getNames()
