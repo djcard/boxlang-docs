@@ -236,6 +236,12 @@ You can easily place a `.cfconfig.json` in the web root of your project, and if 
 
 | Property           | Type    | Default       | Description                                                                                                                                                                                                 |
 |--------------------|---------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| driver             | String  |               | Datasource driver to use. Corresponds with the boxlang JDBC driver module - see [What Database Vendors Are Supported?](#what-database-vendors-are-supported) |
+| dbdriver           | String  |               | Alias for `driver`. *Deprecated* |
+| class              | String  |               | Specify a custom or specific class to use as the database driver. *Not recommended - use the correct `driver` instead.* |
+| custom             | Struct  |               | Struct of custom properties. |
+| username           | String  |               | Database connection username. |
+| password           | String  |               | Database connection password. |
 | maxConnections     | Integer | 10            | The maximum number of connections. Alias for Hikari's `maximumPoolSize` |
 | minConnections     | Integer | 10            | The minimum number of connections. Alias for Hikari's `minimumIdle` |
 | connectionTimeout  | Integer | 1             | Maximum time to wait for a successful connection, in seconds. |
