@@ -9,13 +9,13 @@ BoxLang is a dynamic language that is fluent with a low verbosity syntax.  It wi
 
 ## Syntax Files
 
-BoxLang can be written in either templates, scripts, or classes. You will write one or more instructions in a file (`.bxm,.bxs,.bx`), then run the file through a BoxLang engine or Command Line Interpreter like our REPL.
+BoxLang can be written in either templates, scripts, or classes. You will write one or more instructions in a file (`.bx`, `.bxs`, `.bxm`), then run the file through a BoxLang engine or Command Line Interpreter like our REPL.
 
 <figure><img src="../.gitbook/assets/image (21).png" alt="" width="375"><figcaption><p>BoxLang File Types</p></figcaption></figure>
 
-* `bxm` - BoxLang markup file, tag syntax is the default and used for creating rich views and templating
-* `bxs` - BoxLang scripting file, for a-la-carte scripting
 * `bx` - A BoxLang class
+* `bxs` - BoxLang scripting file, for a-la-carte scripting
+* `bxm` - BoxLang markup file, tag syntax is the default and used for creating rich views and templating
 
 ## Implicit Behavior
 
