@@ -105,10 +105,10 @@ Logical operators perform logic between values or values, usually denoting a `bo
 | ---------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `!,NOT`    | Negation     | `!true = false` or `a = not true`                                                                                                                                                                                                                                 |
 | `&&,AND`   | And          | <p>Returns true if both operands are true.<br><code>a = b &#x26;&#x26; c</code></p>                                                                                                                                                                               |
-| `\|\|, OR` | Or           | <p>Returns true if either operand is true.<br><code>a = b</code></p>                                                                                                                                                                                              |
+| `\|\|, OR` | Or           | <p>Returns true if either operand is true.<br><code>a = b \|\| c</code></p>                                                                                                                                                                                       |
 | `XOR`      | Exclusive Or | <p>Returns true when either of the operands is true (one is true, and the other is false), but both are not true, and both are not false.<br><code>true XOR true = false</code><br><code>true XOR false = true</code><br><code>false XOR false = false</code></p> |
 | `EQV`      | Equivalence  | <p>The exact opposite of an exclusive or. Meaning that it will return true when both operands are either true or false.<br><code>true EQV true = true</code><br><code>true EQV false = false</code><br><code>false EQV false = true</code></p>                    |
-| `IMP`      | Implication  | A implies B is equivalent to `if a then b`. A imp b is false ONLY if a is true and b is false; else, it returns true always.                                                                                                                                      |
+| `IMP`      | Implication  | A implies B is equivalent to `if a then b`. A imp b is false ONLY if a is true and b is false; else, it returns true always.                                                                                                                                |
 
 ###
 
@@ -118,15 +118,15 @@ Comparison operators are used when comparing two values, expressions, or variabl
 
 | Operator                                                             | Name                 | Description                                                                                                                            |
 | -------------------------------------------------------------------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| `eq,==`                                                              | Equality             | True if `a eq b` or `a == b`                                                                                                           |
+| `eq, ==`                                                              | Equality             | True if `a eq b` or `a == b`                                                                                                           |
 | <p><code>neq,</code><br><code>!=,</code><br><code>&#x3C;></code></p> | Not Equal            | The opposite of equality: `a neq b, a != b, a <> b`                                                                                    |
 | `===`                                                                | Identity             | <p>Returns true if the operands are equal in value and in type.<br><code>2 === "2" // false</code><br><code>2 === 2 // true</code></p> |
 | `!===`                                                               | Negated Identity     | Same as the identity operator but negating the result.                                                                                 |
-| `gt,>`                                                               | Greater than         | If the left operand is greater in value than the right operand                                                                         |
+| `gt, >`                                                              | Greater than         | If the left operand is greater in value than the right operand                                                                         |
 | `gte, >=`                                                            | Greater than o equal | If the left operand is greater than or equal in value than the right operand                                                           |
 | `lt, <`                                                              | Less than            | If the left operand is less than in value than the right operand                                                                       |
 | `lte, <=`                                                            | Less than or equal   | If the left operand is less than or equal in value than the right operand                                                              |
-| `contains,ct`                                                        | Contains             | <p>Returns true if the left operand contains the right one.<br><code>'hello' contains 'lo'</code></p>                                  |
+| `contains, ct`                                                       | Contains             | <p>Returns true if the left operand contains the right one.<br><code>'hello' contains 'lo'</code></p>                                  |
 | `does not contain, nct`                                              | Negated contains     | <p>Returns true if the left operand does NOT contain the right one.<br><code>'hello' does not contain 'pio'</code></p>                 |
 
 ## Ternary Operator
