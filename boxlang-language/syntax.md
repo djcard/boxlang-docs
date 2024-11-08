@@ -59,7 +59,7 @@ today = now()
 println( "Today is #today#" )
 // Print out the array and structure
 println( a )
-println( "array has" & a.len() & " elements" )
+println( "array has " & a.len() & " elements" )
 println( user )
 println( user.name & " has an id of #user.id#" )
 
@@ -96,7 +96,7 @@ Run this in the MiniServer or CommandBox or the REPL tool: `boxlang myprogram.bx
 
 ```markup
 <bx:script>
-    a = [ 1,2,3 ]
+    a = [ 1,2,3,4 ]
     user = { name : "boxlang", id : createUUID(), age : 3 }
     today = now()
 </bx:script>
@@ -104,7 +104,7 @@ Run this in the MiniServer or CommandBox or the REPL tool: `boxlang myprogram.bx
 <bx:output>
     Today is #today#<br>
     My array is #a.toString()# and it has #a.len()# elements<br>
-    My user struct is #user.toString()# and has #a.len()# keys<br>
+    My user struct is #user.toString()# and has #user.len()# keys<br>
 </bx:output>
 ```
 
