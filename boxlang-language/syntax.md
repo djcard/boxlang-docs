@@ -9,13 +9,13 @@ BoxLang is a dynamic language that is fluent with a low verbosity syntax.  It wi
 
 ## Syntax Files
 
-BoxLang can be written in either templates, scripts, or classes. You will write one or more instructions in a file (`.bxm,.bxs,.bx`), then run the file through a BoxLang engine or Command Line Interpreter like our REPL.
+BoxLang can be written in either templates, scripts, or classes. You will write one or more instructions in a file (`.bx`, `.bxs`, `.bxm`), then run the file through a BoxLang engine or Command Line Interpreter like our REPL.
 
 <figure><img src="../.gitbook/assets/image (21).png" alt="" width="375"><figcaption><p>BoxLang File Types</p></figcaption></figure>
 
-* `bxm` - BoxLang markup file, tag syntax is the default and used for creating rich views and templating
-* `bxs` - BoxLang scripting file, for a-la-carte scripting
 * `bx` - A BoxLang class
+* `bxs` - BoxLang scripting file, for a-la-carte scripting
+* `bxm` - BoxLang markup file, tag syntax is the default and used for creating rich views and templating
 
 ## Implicit Behavior
 
@@ -59,7 +59,7 @@ today = now()
 println( "Today is #today#" )
 // Print out the array and structure
 println( a )
-println( "array has" & a.len() & " elements" )
+println( "array has " & a.len() & " elements" )
 println( user )
 println( user.name & " has an id of #user.id#" )
 
@@ -96,7 +96,7 @@ Run this in the MiniServer or CommandBox or the REPL tool: `boxlang myprogram.bx
 
 ```markup
 <bx:script>
-    a = [ 1,2,3 ]
+    a = [ 1,2,3,4 ]
     user = { name : "boxlang", id : createUUID(), age : 3 }
     today = now()
 </bx:script>
@@ -104,7 +104,7 @@ Run this in the MiniServer or CommandBox or the REPL tool: `boxlang myprogram.bx
 <bx:output>
     Today is #today#<br>
     My array is #a.toString()# and it has #a.len()# elements<br>
-    My user struct is #user.toString()# and has #a.len()# keys<br>
+    My user struct is #user.toString()# and has #user.len()# keys<br>
 </bx:output>
 ```
 

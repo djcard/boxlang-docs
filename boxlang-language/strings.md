@@ -114,7 +114,7 @@ myArray = a.listToArray();
 // Multi-character delimiter
 list = "boxlang,php,|test,java,|sql";
 getArray = listToArray(list,",|",false,true);
-someJSON = serializeJSON(getArray);
+someJSON = JSONserialize(getArray);
 writeOutput(someJSON);
 ```
 
