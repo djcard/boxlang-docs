@@ -36,7 +36,7 @@ If you have questions about usage, professional support, or ideas to bounce off 
 
 ### Pull Request Guidelines <a href="#pull-request-guidelines" id="pull-request-guidelines"></a>
 
-* The `master` branch is just a snapshot of the **latest stable** release. All development should be done in dedicated branches. Do not submit PRs against the master branch. They will be closed.
+* The `main` branch is just a snapshot of the **latest stable** release. All development should be done in dedicated branches. Do not submit PRs against the `main` branch. They will be closed.
 * All pull requests should be sent against the `development` branch or the LTS version branch `releases/v{version}`
 * It's OK to have multiple small commits as you work on the PR - GitHub will automatically squash it before merging.
 * Make sure all local tests pass before submitting the merge.
@@ -59,4 +59,4 @@ You can support BoxLang and all of our Open Source initiatives at Ortus Solution
 * [Become a backer or sponsor on Patreon](https://www.patreon.com/ortussolutions)
 * [One-time donations via PayPal](https://www.paypal.com/paypalme/ortussolutions)
 
-\
+
