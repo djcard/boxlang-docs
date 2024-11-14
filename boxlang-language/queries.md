@@ -64,7 +64,7 @@ The query object can be iterated on like a normal collection through a `for, bx:
 
 {% embed url="https://boxlang.ortusbooks.com/boxlang-language/reference/components/system/loop" %}
 
-**In a CFM Template**
+**In a BXM Template**
 
 ```xml
 <bx:output query = "qItems">
