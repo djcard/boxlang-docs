@@ -372,7 +372,7 @@ The following are the internal variable substitutions you can use in any value:
 
 ### Environment Variable Substitution
 
-BoxLang supports environment variable substitution using the syntax `${env.environment_variable_name}:default}`. For example, using `${env.MYSQL_HOST:localhost}` will result in the value of the `MYSQL_HOST` environment variable, if found, or fall back to the `localhost` value if the environment variable is not defined.
+BoxLang supports environment variable substitution using the syntax `${env.environment_variable_name:default}`. For example, using `${env.MYSQL_HOST:localhost}` will result in the value of the `MYSQL_HOST` environment variable, if found, or fall back to the `localhost` value if the environment variable is not defined.
 
 Inside your `boxlang.json` configuration file, you can use this to populate datasource credential secrets:
 
