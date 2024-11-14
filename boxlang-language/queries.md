@@ -4,9 +4,9 @@ description: BoxLang provides the easiest way to query a database
 
 # Queries
 
-CFML became famous in its infancy because it was easy to query databases with a simple `bx:query` tag and no verbose ceremonious coding. There is no ceremony, just a plain datasource definition in the administrator, and we could easily query the database.
+CFML became famous in its infancy because it was easy to query databases with a simple `cfquery` tag and no verbose ceremonious coding. There is no ceremony, just a plain datasource definition in the administrator, and we could easily query the database.
 
-In modern times, we have many more ways to query the database, and defining data sources can occur not only [in our web application's `Application.bx`](datasources.md#defining-datasources-in-applicationbx), but also [globally across the BoxLang runtime via our `boxlang.json` configuration file](datasources.md#defining-datasources-in-boxlangjson), not to mention defining datasources at runtime programmatically or [within the query constructs themselves](datasources.md#defining-inline-datasources).
+In modern times, we obviously have many more ways to query the database. With BoxLang, defining data sources can occur not only [in our web application's `Application.bx`](datasources.md#defining-datasources-in-applicationbx), but also [globally across the BoxLang runtime via our `boxlang.json` configuration file](datasources.md#defining-datasources-in-boxlangjson), not to mention defining datasources at runtime programmatically or [within the query constructs themselves](datasources.md#defining-inline-datasources).
 
 {% hint style="info" %}
 See [Application.bx](../boxlang-framework/applicationbx.md) for more information on how to leverage it for web development.
