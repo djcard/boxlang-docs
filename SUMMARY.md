@@ -3,7 +3,9 @@
 * [Introduction](README.md)
   * [Contributing Guide](readme/contributing-guide.md)
   * [Release History](readme/release-history/README.md)
-    * [1.0.0-Beta20](readme/release-history/1.0.0-beta20.md)
+    * [1.0.0-Beta22](readme/release-history/1.0.0-beta22.md)
+    * [1.0.0-Beta21](readme/release-history/1.0.0-beta20.md)
+    * [1.0.0-Beta20](readme/release-history/1.0.0-beta20-1.md)
     * [1.0.0-Beta19](readme/release-history/1.0.0-beta19.md)
     * [1.0.0-Beta18](readme/release-history/1.0.0-beta18.md)
     * [1.0.0-Beta17](readme/release-history/1.0.0-beta17.md)
@@ -22,7 +24,6 @@
     * [1.0.0-Beta 4](readme/release-history/1.0.0-beta-4.md)
     * [1.0.0-Beta3](readme/release-history/1.0.0-beta3.md)
     * [1.0.0-Beta2](readme/release-history/1.0.0-beta2.md)
-    * [1.0.0-Beta22](readme/release-history/1.0.0-beta22.md)
   * [About This Book](readme/about-this-book/README.md)
     * [Author](readme/about-this-book/author.md)
 
