@@ -53,7 +53,7 @@ function add( required numeric a, required numeric b, boolean print = false ){
 }
 ```
 
-As you can see, not only can we make arguments **required** or not, but we can also add **default** values to arguments. BoxLang does not allow method overrides since basically, every method can take an infinite nubmer of arguments, defined or even NOT defined.
+As you can see, not only can we make arguments **required** or not, but we can also add **default** values to arguments. BoxLang does not allow method overrides since basically, every method can take an infinite number of arguments, defined or even NOT defined.
 
 We can also do type promotions and auto-casting from types that can be castable to other types. So, if we call our function like this:
 
