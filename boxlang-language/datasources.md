@@ -232,7 +232,7 @@ You can easily place a `.cfconfig.json` in the web root of your project, and if 
 
 ## Datasource Configuration
 
-## All Configuration Properties
+### All Configuration Properties
 
 | Property           | Type    | Default       | Description                                                                                                                                                                                                 |
 |--------------------|---------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

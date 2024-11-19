@@ -155,7 +155,9 @@ You can set the runtime into debug mode via a few approaches:
 server start --debug
 ```
 
-#### `env.BOXLANG_DEBUGMODE` env variable
+#### `env.BOXLANG_DEBUG` env variable
+
+Set `env.BOXLANG_DEBUG` in your `server.json` file:
 
 ```json
 "env":{
@@ -164,6 +166,8 @@ server start --debug
 ```
 
 #### `.cfconfig.json` `debugMode` setting
+
+Or set `debugMode` in your `.cfconfig.json` server configuration file:
 
 ```json
 {
