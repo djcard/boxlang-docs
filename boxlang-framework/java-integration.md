@@ -177,3 +177,7 @@ class extends="BaseProxy"{
 ```
 
 Basically, your class must implement the appropriate methods the interface(s) tell you that it needs. After that, your class will be Java-fide, and it can be used like a native Java interface implementing objects! Enjoy!
+
+## Passing Function References / Higher Order Functions
+
+Java methods can be referenced and passed around as a variable and invoked later like UDFs allow.

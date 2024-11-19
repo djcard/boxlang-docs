@@ -45,6 +45,10 @@ IMP
 Remember that using parenthesis `(Grouping Operator)` is very important to denote precedence.
 {% endhint %}
 
+{% hint style="warning" %}
+ CF code will use CF's precedence.
+{% endhint %}
+
 ## Arithmetic Operators
 
 These operators are used to perform arithmetic/mathematical operations on operands.
@@ -204,6 +208,10 @@ echo( s?.name )
 ```
 
 ### Spread Operator
+
+{% hint style="warning" %}
+Feature coming soon
+{% endhint %}
 
 The spread operator allows an iterable object to expand and merge in certain declarations in code. These objects in BoxLang are mostly arrays and structures. This operator can quickly merge all or parts of an existing array or object into another array or object. This operator is used by leveraging three dots `...` in specific expressions.
 

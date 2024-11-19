@@ -130,68 +130,6 @@ complexData = [ {a: 4}, {a: 18}, {a: 51} ];
 writeDump(sum);
 ```
 
-## Typed Arrays
-
-BoxLang also allow you to create strongly typed arrays. This is useful if you want to determine the array's contents specifically. Similar to [generics](https://www.baeldung.com/java-generic-array) in Java.
-
-This syntax will allow you to define an array as being of a certain type and how many dimensions it has.
-
-```javascript
-// array of strings
-stringArray = arrayNew[ "String" ]( 1 )
-// array of numerics
-numericArray = arrayNew[ "Numeric" ]( 1 )
-// array of User Classes
-aUsers = arrayNew[ "User" ]( 1 )
-```
-
-If you want to use typed arrays, then you will have to declare it via the `ArrayNew()` method via the second argument:
-
-```javascript
-ArrayNew( dimension, type, synchronized:boolean )
-```
-
-{% hint style="warning" %}
-Please note that BoxLang will try to cast values automatically into the type defined by the array container.
-{% endhint %}
-
-{% hint style="info" %}
-**Tip**: By default, all BoxLang arrays are _Unsynchronized_. That means they are not thread-safe when accessing the data from multiple threads or shared scopes.
-
-Unsynchronized arrays are about 93% faster due to lock avoidance. So with much power comes much responsibility.
-{% endhint %}
-
-### Array Types
-
-The allowed types are:
-
-* Array
-* Binary
-* Boolean
-* Component
-* Class by Name / SubType
-* Date / Datetime
-* Function
-* Numeric
-* Query
-* String
-* Struct
-
-### Literal Syntax
-
-BoxLang also supports a way to make a declaration of a typed array using a literal syntax:
-
-```javascript
-[ type ][ elem1, elem2, .. elemN ]
-```
-
-This is a nice way to declare them literally:
-
-```javascript
-stringArray = [ 'String' ][ 1, "Word1", "Word2" ]
-writeDump( stringArray )
-```
-
 ## Negative Indices
 
 BoxLang also supports the concept of negative indices. This allows you to retrieve the elements from the end of the array backward. So you can easily count back instead of counting forwards:

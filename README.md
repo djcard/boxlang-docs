@@ -49,7 +49,7 @@ BoxLang is open source and licensed under the [Apache 2 ](https://www.apache.org
 
 ## BoxLang Subscriptions
 
-BoxLang can also be enhanced by [purchasing +/++ subscriptions](https://www.boxlang.io/plans) to give you:
+BoxLang can also be enhanced by [purchasing subscriptions](https://www.boxlang.io/plans) to give you:
 
 * Business Support with SLAs
 * Enhanced builds

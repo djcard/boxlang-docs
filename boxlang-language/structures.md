@@ -203,13 +203,6 @@ You can also use literal syntax for some of these types:
 ```javascript
 // ordered struct
 myStruct = [:] or [=]
-
-// Case sensitive struct ACF Only
-myStruct = ${}
-
-// Case sensitive ordered struct ACF Only
-myStruct = $[=]
-
 ```
 
 ## Common Methods

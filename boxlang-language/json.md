@@ -14,8 +14,6 @@ BoxLang gives us the `jsonSerialize()` function to convert any piece of data to 
 jsonSerialize(
  var
  [, serializeQueryByColumns = false ]
- [, useSecureJSONPrefix = false ]
- [, useCustomSerializer = false ]
 )
 ```
 
@@ -53,7 +51,6 @@ The inverse of serialization is deserialization ([https://boxlang.ortusbooks.com
 jsonDeserialize(
  json
  [, strictMapping = true ]
- [, useCustomSerializer = false ]
 )
 ```
 

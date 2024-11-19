@@ -45,7 +45,7 @@ If you have questions about usage, professional support, or ideas to bounce off 
 
 ### Security Vulnerabilities
 
-If you discover a security vulnerability, please email the development team at [security@ortussolutions.com](mailto:security@ortussolutions.com?subject=security) and report it to the `#security` channel in our Box Team Slack Channel. All security vulnerabilities will be promptly addressed.\
+If you discover a security vulnerability, please email the development team at [security@ortussolutions.com](mailto:security@ortussolutions.com?subject=security) and report it to the `#security` channel in our Box Team Slack Channel. All security vulnerabilities will be promptly addressed.
 
 
 ### JDK Compatibility
@@ -58,5 +58,3 @@ You can support BoxLang and all of our Open Source initiatives at Ortus Solution
 
 * [Become a backer or sponsor on Patreon](https://www.patreon.com/ortussolutions)
 * [One-time donations via PayPal](https://www.paypal.com/paypalme/ortussolutions)
-
-
