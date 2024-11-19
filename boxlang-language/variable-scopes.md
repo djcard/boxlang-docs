@@ -27,7 +27,7 @@ Can be used in any context, used for persisting variables for a period of time.
 * `form` - Variables submitted via HTTP posts
 * `URL` - Variables incoming via HTTP GET operations or the incoming URL
 
-## Template Scopes (CFM)
+## Template Scopes (BXM)
 
 * `variables` - The default or implicit scope where all variables are assigned to.
 
