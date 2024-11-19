@@ -45,7 +45,7 @@ If you have questions about usage, professional support, or ideas to bounce off 
 
 ### Security Vulnerabilities
 
-If you discover a security vulnerability, please email the development team at [security@ortussolutions.com](mailto:security@ortussolutions.com?subject=security) and report it to the `#security` channel in our Box Team Slack Channel. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability, please email the development team at [security@ortussolutions.com](mailto:security@ortussolutions.com?subject=security. All security vulnerabilities will be promptly addressed.
 
 
 ### JDK Compatibility
