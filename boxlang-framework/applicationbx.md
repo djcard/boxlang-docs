@@ -37,7 +37,7 @@ class{
 
     this.name = "My Awesome App";
     this.applicationTimeout = createTimeSpan( 30, 0, 0, 0 ); //30 days
-    this.sessionStorage = true;
+    this.sessionStorage = "default"; // An optional name of a cache to use for session storage
     this.sessionTimeout = createTimeSpan( 0, 0, 60, 0 ); // 1 hour
 
     function onApplicationStart(){}
