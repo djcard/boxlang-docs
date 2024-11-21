@@ -47,9 +47,15 @@ class{
     function onSessionEnd( struct sessionScope, struct applicationScope ) {}
 
     function onRequestStart( string targetPage ) {}
+    
+    /**
+    * The output flag needs to be on for this method in order to render
+    **/
+    @output
     function onRequest( string targetPage ) {
         include arguments.targetPage;
     }
+    
     function onRequestEnd() {}
     function onClassRequest( className, method, struct args) {
         return;
