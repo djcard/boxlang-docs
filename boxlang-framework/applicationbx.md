@@ -51,7 +51,7 @@ class{
     /**
     * The output flag needs to be on for this method in order to render
     **/
-    @output
+    @output true
     function onRequest( string targetPage ) {
         include arguments.targetPage;
     }
