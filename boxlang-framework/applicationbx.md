@@ -37,7 +37,7 @@ class{
 
     this.name = "My Awesome App";
     this.applicationTimeout = createTimeSpan( 30, 0, 0, 0 ); //30 days
-    this.sessionStorage = true;
+    this.sessionStorage = "default"; // An optional name of a cache to use for session storage
     this.sessionTimeout = createTimeSpan( 0, 0, 60, 0 ); // 1 hour
 
     function onApplicationStart(){}
@@ -47,9 +47,15 @@ class{
     function onSessionEnd( struct sessionScope, struct applicationScope ) {}
 
     function onRequestStart( string targetPage ) {}
+    
+    /**
+    * The output flag needs to be on for this method in order to render
+    **/
+    @output true
     function onRequest( string targetPage ) {
         include arguments.targetPage;
     }
+    
     function onRequestEnd() {}
     function onClassRequest( className, method, struct args) {
         return;
