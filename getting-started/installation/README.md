@@ -219,7 +219,7 @@ BoxLang can also run on AWS Lambdas. It even powers our entry playground at [htt
 
 ### CommandBox BoxLang Server
 
-BoxLang can also be deployed using [CommandBox](https://www.ortussolutions.com/products/commandbox). This is our preferred way to deploy web applications using BoxLang. BoxLang +/++ Subscribers even get access to [CommandBox Pro](https://www.ortussolutions.com/products/commandbox-pro). Note: This installation is typically used for web applications which will be served by a CommandNBox server and is not typically used for application which need access to BoxLang from the command line.  
+BoxLang can also be deployed using [CommandBox](https://www.ortussolutions.com/products/commandbox). This is our preferred way to deploy web applications using BoxLang. BoxLang +/++ Subscribers even get access to [CommandBox Pro](https://www.ortussolutions.com/products/commandbox-pro). Note: This installation method is typically localized for a particular web application and is not typically accessed generally by other applications.  
 
 ```bash
 box install commandbox-boxlang
