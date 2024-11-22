@@ -165,6 +165,15 @@ Set `env.BOXLANG_DEBUG` in your `server.json` file:
 },
 ```
 
+### `BOXLANG_DEBUG` in a .env file
+
+Set `BOXLANG_DEBUG=true` in a .env file
+
+```bash
+BOXLANG_DEBUG=true
+```
+
+
 ### `.cfconfig.json` `debugMode` setting
 
 Or set `debuggingEnabled` in your `.cfconfig.json` server configuration file:
