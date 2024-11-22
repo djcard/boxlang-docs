@@ -19,7 +19,7 @@ Find out about CommandBox Pro [https://www.ortussolutions.com/products/commandbo
 
 You can find out more about getting started with CommandBox or CommandBox Pro in our [CommandBox documentation](https://commandbox.ortusbooks.com/getting-started-guide).
 
-### Install the Module <a href="#versioning" id="versioning"></a>
+## Install the Module <a href="#versioning" id="versioning"></a>
 
 Once installed, CommandBox needs (for the moment) the `commandbox-boxlang` module to start BoxLang servers. So let's go ahead and install it:
 
@@ -33,7 +33,7 @@ This will add the right file types and handlers to CommandBox for BoxLang.
 This will no longer be needed on CommandBox 6.1+
 {% endhint %}
 
-### Start up a Server
+## Start up a Server
 
 This guide is short and sweet. The hard part has been done. Now, you can start a BoxLang server like any other CommandBox server. So go to the webroot of your choosing and run:
 
@@ -43,21 +43,21 @@ server start cfengine=boxlang javaVersion=openjdk21_jdk
 
 Enjoy your server!
 
-### Server Home
+## Server Home
 
 Like any other CommandBox server, the servers will be stored in your setup's CommandBox Home. The `boxlang.json`, class folders, and modules will all be installed here.
 
-### Installing BoxLang Modules
+## Installing BoxLang Modules
 
 Just like with any server, you can also install modules into the BoxLang server.
 
 ```bash
-install bx-mysql, bx-derby
+install bx-mysql,bx-derby
 ```
 
 That's it. CommandBox knows where to put them and manage them.
 
-### Server.json
+## Server.json
 
 You can also make your CommandBox BoxLang server portable with a `server.json` file:
 
@@ -93,7 +93,7 @@ You can also make your CommandBox BoxLang server portable with a `server.json` f
 }
 ```
 
-### Environment Variables
+## Environment Variables
 
 The servlet/CommandBox runtime uses the same [env variables](./#environment-variables) as the core OS. You can find them here.
 
@@ -101,13 +101,13 @@ The servlet/CommandBox runtime uses the same [env variables](./#environment-vari
 [.](./)
 {% endcontent-ref %}
 
-### Runtime Source Code
+## Runtime Source Code
 
 The runtime source code can be found here: [https://github.com/ortus-boxlang/boxlang-servlet](https://github.com/ortus-boxlang/boxlang-servlet)
 
 We welcome any pull requests, testing, docs, etc.
 
-### Custom boxlang.json
+## Custom boxlang.json
 
 You can use your own custom `boxlang.json` file to startup the engine by using the `app.engineConfigFile` setting in your `server.json`
 
@@ -145,17 +145,17 @@ You can use your own custom `boxlang.json` file to startup the engine by using t
 }
 ```
 
-### Debug Mode
+## Debug Mode
 
 You can set the runtime into debug mode via a few approaches:
 
-#### `--debug` flag via the `server start` command
+### `--debug` flag via the `server start` command
 
 ```bash
 server start --debug
 ```
 
-#### `env.BOXLANG_DEBUG` env variable
+### `env.BOXLANG_DEBUG` env variable
 
 Set `env.BOXLANG_DEBUG` in your `server.json` file:
 
@@ -165,17 +165,25 @@ Set `env.BOXLANG_DEBUG` in your `server.json` file:
 },
 ```
 
-#### `.cfconfig.json` `debugMode` setting
+### `BOXLANG_DEBUG` in a .env file
 
-Or set `debugMode` in your `.cfconfig.json` server configuration file:
+Set `BOXLANG_DEBUG=true` in a .env file
+
+```bash
+BOXLANG_DEBUG=true
+```
+
+
+### `.cfconfig.json` `debugMode` setting
+
+Or set `debuggingEnabled` in your `.cfconfig.json` server configuration file:
 
 ```json
 {
-    "debugMode" : true
+    "debuggingEnabled" : true
 }
 ```
 
-#### Custom `boxlang.json` file
+### Custom `boxlang.json` file
 
 Use the `app.engineConfigFile` to seed a custom `boxlang.json` file into the engine and use the normal settings in the `boxlang.json`.
-
