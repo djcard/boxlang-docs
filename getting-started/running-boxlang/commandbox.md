@@ -167,11 +167,11 @@ Set `env.BOXLANG_DEBUG` in your `server.json` file:
 
 ### `.cfconfig.json` `debugMode` setting
 
-Or set `debugMode` in your `.cfconfig.json` server configuration file:
+Or set `debuggingEnabled` in your `.cfconfig.json` server configuration file:
 
 ```json
 {
-    "debugMode" : true
+    "debuggingEnabled" : true
 }
 ```
 
