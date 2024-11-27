@@ -35,7 +35,7 @@ This will no longer be needed on CommandBox 6.1+
 
 ## Start up a Server
 
-This guide is short and sweet. The hard part has been done. Now, you can start a BoxLang server like any other CommandBox server. So go to the webroot of your choosing and run:
+![](../../.gitbook/assets/lightbulblogo.png)This guide is short and sweet. The hard part has been done. Now, you can start a BoxLang server like any other CommandBox server. So go to the webroot of your choosing and run:
 
 ```bash
 server start cfengine=boxlang javaVersion=openjdk21_jdk
@@ -172,7 +172,6 @@ Set `BOXLANG_DEBUG=true` in a .env file
 ```bash
 BOXLANG_DEBUG=true
 ```
-
 
 ### `.cfconfig.json` `debugMode` setting
 
