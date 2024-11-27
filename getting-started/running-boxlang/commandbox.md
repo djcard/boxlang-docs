@@ -43,7 +43,7 @@ server start cfengine=boxlang javaVersion=openjdk21_jdk
 
 Enjoy your server!
 
-<figure><a href="https://drive.google.com/file/d/1xOK5uYmRClYJcESE8_uSdjUzwJ5fU-r-/view?usp=drive_link" target="_blank" title="View Video on CFCasts about configuring CommandBox Servers "><img src="../../.gitbook/assets/lightbulblogosmaller (1).png" alt="" width="45"><figcaption></figcaption></a></figure>
+[CFCasts](https://drive.google.com/file/d/1xOK5uYmRClYJcESE8_uSdjUzwJ5fU-r-/view?usp=drive_link)
 
 ## Server Home
 
