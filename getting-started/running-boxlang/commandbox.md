@@ -47,7 +47,9 @@ Enjoy your server!
 
 ## Server Home
 
+[[Open Video In CFCasts](../../.gitbook/assets/cfcasts (2).svg])](https://drive.google.com/file/d/1xOK5uYmRClYJcESE8_uSdjUzwJ5fU-r-/view?usp=drive_link)
 
+[![Open Video In CFCasts](../../.gitbook/assets/cfcasts (2).svg])](https://drive.google.com/file/d/1xOK5uYmRClYJcESE8_uSdjUzwJ5fU-r-/view?usp=drive_link)
 
 <img src="../../.gitbook/assets/cfcasts (2).svg" alt="" data-size="line">Like any other CommandBox server, the servers will be stored in your setup's CommandBox Home. The `boxlang.json`, class folders, and modules will all be installed here.
 
