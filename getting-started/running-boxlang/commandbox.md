@@ -47,7 +47,9 @@ Enjoy your server!
 
 ## Server Home
 
-Like any other CommandBox server, the servers will be stored in your setup's CommandBox Home. The `boxlang.json`, class folders, and modules will all be installed here.
+
+
+<img src="../../.gitbook/assets/cfcasts (2).svg" alt="" data-size="line">Like any other CommandBox server, the servers will be stored in your setup's CommandBox Home. The `boxlang.json`, class folders, and modules will all be installed here.
 
 ## Installing BoxLang Modules
 
