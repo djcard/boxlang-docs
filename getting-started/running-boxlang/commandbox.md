@@ -41,7 +41,7 @@ This guide is short and sweet. The hard part has been done. Now, you can start a
 server start cfengine=boxlang javaVersion=openjdk21_jdk
 ```
 
-Enjoy your server! [![](../../.gitbook/assets/lightbulblogo.png)](http://www.redsox.com)
+Enjoy your server! [![](<../../.gitbook/assets/lightbulblogo (1).png>)](http://www.redsox.com)![](<../../.gitbook/assets/lightbulblogosmaller (1).png>)
 
 ## Server Home
 
