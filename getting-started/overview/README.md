@@ -9,11 +9,13 @@ description: A quick overview of the BoxLang Language & Framework
 
 [Watch on CFCasts](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0027-1)
 
-[:tada:](https://boktoks.seeandplaymode.com/view/boxlang-docs-dc-0027-1) 
+<figure><img src="../../.gitbook/assets/lightbulblogosmaller.png" alt=""><figcaption></figcaption></figure>
 
-[<img src="../../.gitbook/assets/image (10).png" alt="" />](https://boktoks.seeandplaymode.com/view/boxlang-docs-dc-0027-1) 
 
-[![](../../.gitbook/assets/cfcasts (2).svg)]](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0027-1)
+
+[![](<../../.gitbook/assets/image (10).png>)](https://boktoks.seeandplaymode.com/view/boxlang-docs-dc-0027-1)
+
+\[!\[]\(../../.gitbook/assets/cfcasts (2).svg)]]\(https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0027-1)
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>BoxLang</p></figcaption></figure>
 
