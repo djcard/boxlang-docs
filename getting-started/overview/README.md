@@ -7,7 +7,7 @@ description: A quick overview of the BoxLang Language & Framework
 
 ## What is BoxLang?
 
-[Watch on CFCasts](https://boktoks.seeandplaymode.com/view/boxlang-docs-dc-0027-1)
+<p style="text-align:right">[Watch on CFCasts](https://boktoks.seeandplaymode.com/view/boxlang-docs-dc-0027-1)</p>
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>BoxLang</p></figcaption></figure>
 
