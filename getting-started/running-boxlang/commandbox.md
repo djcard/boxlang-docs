@@ -43,7 +43,11 @@ server start cfengine=boxlang javaVersion=openjdk21_jdk
 
 Enjoy your server!
 
+[CFCasts](https://drive.google.com/file/d/1xOK5uYmRClYJcESE8_uSdjUzwJ5fU-r-/view?usp=drive_link)
+
 ## Server Home
+
+[![Open Video In CFCasts](<../../.gitbook/assets/cfcasts (2).svg>)](https://boktoks.seeandplaymode.com/view/)
 
 Like any other CommandBox server, the servers will be stored in your setup's CommandBox Home. The `boxlang.json`, class folders, and modules will all be installed here.
 
@@ -172,7 +176,6 @@ Set `BOXLANG_DEBUG=true` in a .env file
 ```bash
 BOXLANG_DEBUG=true
 ```
-
 
 ### `.cfconfig.json` `debugMode` setting
 
