@@ -5,7 +5,7 @@ description: A quick overview of the BoxLang Language & Framework
 
 # Overview
 
-### What is BoxLang?
+## What is BoxLang?
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>BoxLang</p></figcaption></figure>
 
@@ -13,7 +13,7 @@ description: A quick overview of the BoxLang Language & Framework
 
 BoxLang combines many features from different programming languages, including Java, CFML, Python, Ruby, Go, and PHP, to provide developers with a modern, fluent, and expressive syntax. It has been designed to be a highly modular and dynamic language that takes advantage of all the modern features of the JVM.
 
-### Goals <a href="#goals-3" id="goals-3"></a>
+## Goals <a href="#goals-3" id="goals-3"></a>
 
 * Be dynamic, modular, lightweight and fast
 * Be 100% interoperable with Java
@@ -25,7 +25,7 @@ BoxLang combines many features from different programming languages, including J
 * Multi-Parser design to support running different dynamic languages like CFML, Groovy and more.
 * Tooling and enhanced IDE
 
-### Key Features
+## Key Features
 
 1. **Dynamic Language**: BoxLang is dynamically typed, meaning you don’t need to declare types if you don’t want to. It can do type inference, auto-casting, and promotions between different types. The language adapts itself to its deployed runtime. It can add/remove/modify methods and properties at runtime, making it highly flexible and adaptable.
 2. **Low Verbosity Syntax:** BoxLang is a low-verbosity syntax language. It is highly functional, fluent, and human-readable. Our intent with BoxLang is to make it highly expressive and low ceremony.
@@ -42,7 +42,7 @@ BoxLang combines many features from different programming languages, including J
 13. **Tooling:** We provide the core language and several tools to help developers do their job easily and efficiently. We provide a Visual Studio Code extension for the language to provide syntax highlighting, debugger, code insight, code documentation, formatting, LSP integration, and more. Our + subscribers get even more tools like enhanced debuggers, CFML transformers, and more.
 14. **Ecosystem:** Even though BoxLang is a new language, **it already has an established ecosystem** since every Java and CFML library works with BoxLang. This was our priority when designing BoxLang, and it would automatically be able to integrate and run libraries from the Java and CFML ecosystems. It ships with [CommandBox](https://www.ortussolutions.com/products/commandbox) as its package manager, server manager, task manager, and REPL tool. Almost any project in [https://central.sonatype.com/ 1](https://central.sonatype.com/) and [https://www.forgebox.io](http://www.forgebox.io/) should work with BoxLang.
 
-### Is it CFML compatible?
+## Is it CFML compatible?
 
 {% hint style="danger" %}
 This is still a work in progress until we go stable in Fall 2024
@@ -56,7 +56,7 @@ You will have the choice to continue with CFML-compatible code or come to our ne
 We are also in the planning phases for building a [Groovy](https://www.groovy-lang.org/) parser as well.
 {% endhint %}
 
-### Release Video
+## Release Video
 
 We launched an open beta of BoxLang at our developer conference, [Into The Box.](https://www.intothebox.org/)
 
