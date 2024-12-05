@@ -39,6 +39,15 @@ class{
     this.applicationTimeout = createTimeSpan( 30, 0, 0, 0 ); //30 days
     this.sessionStorage = "default"; // An optional name of a cache to use for session storage
     this.sessionTimeout = createTimeSpan( 0, 0, 60, 0 ); // 1 hour
+    
+    // Web-only session cookie settings
+    this.sessionCookie = {
+         httpOnly : true, // when set to true, cookies will not be available to Javascript
+         secure : false, // instructs the browser only to send the cookie over ssl
+         sameSite : false, // whether to allow cookies access by third party sites
+         sameSiteMode : "Lax", // The same site enforcement mode. May override the `sameSite` attribute
+         timeout : createTimeSpan( 365, 0, 0, 0 ) // The default timeout for session cookies
+    };
 
     function onApplicationStart(){}
     function onApplicationEnd( struct applicationScope ) {}
