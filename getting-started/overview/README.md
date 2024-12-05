@@ -9,9 +9,8 @@ description: A quick overview of the BoxLang Language & Framework
 
 [Watch on CFCasts](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0027-1)
 
-[<img src="../../.gitbook/assets/lightbulblogosmaller.png" alt="">](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0027-1)|
+[![](../../.gitbook/assets/lightbulblogosmaller.png)](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0027-1)|
 
-<figure><a href="https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0027-1"><img src="../../.gitbook/assets/lightbulblogosmaller.png" alt="">a</a><figcaption></figcaption></figure>
 
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>BoxLang</p></figcaption></figure>
