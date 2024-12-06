@@ -23,6 +23,8 @@ We have a collection of CLI tools available to every OS installation:
 
 ## BoxLang IDE
 
+[Watch on CFCasts](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0045)
+
 We have an official first-party extension for VSCode. You can find it in the [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=ortus-solutions.vscode-boxlang).
 
 <figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>

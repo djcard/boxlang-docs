@@ -5,6 +5,8 @@ description: Power your mission-critical and enterprise applications with Comman
 
 # CommandBox
 
+[Watch on CFCasts](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0038)
+
 <figure><img src="../../.gitbook/assets/commandbox.png" alt=""><figcaption></figcaption></figure>
 
 [CommandBox](https://commandbox.ortusbooks.com/) is a standalone, native tool for Windows, Mac, and Linux that provides a Command-Line Interface (CLI) for developer productivity, tool interaction, package management, embedded JEE server, application scaffolding, and sweet ASCII art.
@@ -43,11 +45,7 @@ server start cfengine=boxlang javaVersion=openjdk21_jdk
 
 Enjoy your server!
 
-[CFCasts](https://drive.google.com/file/d/1xOK5uYmRClYJcESE8_uSdjUzwJ5fU-r-/view?usp=drive_link)
-
 ## Server Home
-
-[![Open Video In CFCasts](<../../.gitbook/assets/cfcasts (2).svg>)](https://boktoks.seeandplaymode.com/view/)
 
 Like any other CommandBox server, the servers will be stored in your setup's CommandBox Home. The `boxlang.json`, class folders, and modules will all be installed here.
 

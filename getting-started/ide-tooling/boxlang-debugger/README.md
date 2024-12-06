@@ -5,6 +5,8 @@ description: Learn how to debug with BoxLang and the BoxLang IDE
 
 # BoxLang Debugger
 
+[Watch on CFCasts](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0046)
+
 <figure><img src="../../../.gitbook/assets/BL-Debugger.png" alt=""><figcaption></figcaption></figure>
 
 ## What is a Debugger?

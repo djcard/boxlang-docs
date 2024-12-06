@@ -221,6 +221,8 @@ BoxLang can also run on AWS Lambdas. It even powers our entry playground at [htt
 
 ### CommandBox BoxLang Server
 
+( [Watch on CFCasts](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0034-0003-0004) )
+
 BoxLang can also be deployed using [CommandBox](https://www.ortussolutions.com/products/commandbox). This is our preferred way to deploy web applications using BoxLang. BoxLang +/++ Subscribers even get access to [CommandBox Pro](https://www.ortussolutions.com/products/commandbox-pro). Note: This installation method is typically localized for a particular web application and is not typically accessed generally by other applications.
 
 ```bash
@@ -246,6 +248,8 @@ We have a full [Docker guide you can follow here.](../running-boxlang/docker.md)
 ## BoxLang IDE
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>BoxLang IDE</p></figcaption></figure></div>
+
+( [Watch on CFCasts](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0034-0004) )
 
 The BoxLang IDE is a collection of modules for VSCode. You can find it here:
 

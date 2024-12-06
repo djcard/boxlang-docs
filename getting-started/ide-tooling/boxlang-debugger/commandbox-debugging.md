@@ -4,6 +4,8 @@ description: Debugging a CommandBox BoxLang Server
 
 # CommandBox Debugging
 
+[Watch on CFCasts](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0048)
+
 <figure><img src="../../../.gitbook/assets/commandbox.png" alt=""><figcaption></figcaption></figure>
 
 So you’ve installed [CommandBox](../../running-boxlang/commandbox.md) and are running the latest BoxLang server like a boss. You open up your browser and are met with an error message. This looks like a job for, you guessed it, the BoxLang VS Code Debugger!

@@ -55,6 +55,7 @@
     * [CommandBox Debugging](getting-started/ide-tooling/boxlang-debugger/commandbox-debugging.md)
   * [BoxLang Compiler](getting-started/ide-tooling/boxlang-compiler.md)
   * [CFML Feature Audit](getting-started/ide-tooling/cfml-feature-audit.md)
+  * [CFML Feature Audit Module](getting-started/ide-tooling/cfml-feature-audit-module.md)
   * [CFML to BoxLang Transpiler](getting-started/ide-tooling/cfml-to-boxlang-transpiler.md)
 * [Runtime Configuration](getting-started/configuration.md)
 
