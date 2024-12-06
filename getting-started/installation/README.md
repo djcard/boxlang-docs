@@ -97,6 +97,8 @@ Write-Host "OpenJDK $jdkVersion installation completed."
 
 ## Quick Installer
 
+[![](../../.gitbook/assets/lightbulblogosmaller.png)](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0034-0002)
+
 To get started quickly with BoxLang, use our BoxLang Quick Installer for Mac/Linux/\*Nix/Windows
 
 {% tabs %}
@@ -191,14 +193,14 @@ Please note that the binaries here are the latest beta builds, not the bleeding 
 ### Operating System Binaries
 
 Here, you can find the installers and binaries for all Operating Systems:
-
+[![](../../.gitbook/assets/lightbulblogosmaller.png)](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0034-0002)
 * Windows Installer:\
   [https://downloads.ortussolutions.com/ortussolutions/boxlang/boxlang-installer.exe](https://downloads.ortussolutions.com/ortussolutions/boxlang/boxlang-installer.exe)
 * Zip (All OSs):\
   [https://downloads.ortussolutions.com/ortussolutions/boxlang/boxlang-latest.zip](https://downloads.ortussolutions.com/ortussolutions/boxlang/boxlang-latest.zip)
 * Jar:\
   [https://downloads.ortussolutions.com/ortussolutions/boxlang/boxlang-latest-all.jar](https://downloads.ortussolutions.com/ortussolutions/boxlang/boxlang-latest-all.jar)
-* Quick Installer (Mac/\*nix)\
+* Quick Installer (Mac/\*nix):\
   [https://downloads.ortussolutions.com/ortussolutions/boxlang/install-boxlang.sh](https://downloads.ortussolutions.com/ortussolutions/boxlang/install-boxlang.sh)
 
 ### MiniServer Binaries
