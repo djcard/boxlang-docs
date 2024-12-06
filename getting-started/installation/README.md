@@ -192,8 +192,7 @@ Please note that the binaries here are the latest beta builds, not the bleeding 
 
 ### Operating System Binaries
 
-Here, you can find the installers and binaries for all Operating Systems:
-[![](../../.gitbook/assets/lightbulblogosmaller.png)](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0034-0002)
+Here, you can find the installers and binaries for all Operating Systems [![](../../.gitbook/assets/lightbulblogosmaller.png)](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0034-0002)\
 * Windows Installer:\
   [https://downloads.ortussolutions.com/ortussolutions/boxlang/boxlang-installer.exe](https://downloads.ortussolutions.com/ortussolutions/boxlang/boxlang-installer.exe)
 * Zip (All OSs):\
