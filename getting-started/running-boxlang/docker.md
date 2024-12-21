@@ -78,7 +78,7 @@ version: "2.1"
 
 services:
   bxweb:
-    image: docker pull ortussolutions/boxlang:miniserver
+    image: ortussolutions/boxlang:miniserver
     environment:
       - BOXLANG_DEBUG=true
       - BOXLANG_MODULES=bx-compat-cfml,bx-esapi,bx-mysql
