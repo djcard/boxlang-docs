@@ -97,8 +97,6 @@ Write-Host "OpenJDK $jdkVersion installation completed."
 
 ## Quick Installer
 
-[Watch on CFCasts](https://boktoks.seeandplaymode.com/boxtoks/view/boxlang-docs-dc-0034-0002)
-
 To get started quickly with BoxLang, use our BoxLang Quick Installer for Mac/Linux/\*Nix/Windows
 
 {% tabs %}
