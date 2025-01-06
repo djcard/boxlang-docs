@@ -1,6 +1,6 @@
 ---
-description: All the major information about BoxLang Releases
 icon: space-awesome
+description: All the major information about BoxLang Releases
 ---
 
 # Release History
@@ -30,6 +30,4 @@ For all BoxLang releases, updates are provided for 12 months, and security fixes
 
 ### Releases
 
-In this section, you will find the release notes and links for each version's documentation. If you are looking for the release notes of previous major versions, use the version switcher at the top left of this documentation book.
-
-* Version 1.0 - Fall 2024\
+In this section, you will find the release notes and links for each version's documentation once we reach a stable release.  For now, you can see all the different beta releases on the left hand navigation under Release History.\
